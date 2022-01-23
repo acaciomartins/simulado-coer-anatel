@@ -172,7 +172,7 @@
 					this.perguntas = resultado
 				},
 				selecionarPerguntas() {
-                    this.perguntasSelecionadas = _(this.perguntas).filter({ anulada: false }).shuffle().slice(0, 20).forEach(function(pergunta) {
+                    this.perguntasSelecionadas = _(this.perguntas).filter({ anulada: false }).shuffle().slice(0, 1168).forEach(function(pergunta) {
                         if (pergunta.embaralhar_alternativas) {
                             pergunta.alternativas = _.shuffle(pergunta.alternativas)
                         }
