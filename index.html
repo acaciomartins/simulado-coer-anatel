@@ -111,8 +111,8 @@
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
 
     <script>
-          import Vue from 'vue/dist/vue'
-          window.Vue = Vue
+          import Vue from 'vue'
+          window.Vue = require("vue");
 
 		if (!self.fetch) {
 		    alert('Navegador incompatível com esse site.')
