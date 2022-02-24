@@ -1,4 +1,4 @@
-import Vue from 'vue/dist/vue'
+
           window.Vue = Vue
 console.log(window.Vue) 
 		if (!self.fetch) {
