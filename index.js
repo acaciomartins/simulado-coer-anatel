@@ -1,6 +1,5 @@
-
-          window.Vue = Vue
-console.log(window.Vue) 
+	window.Vue = Vue
+	console.log(window.Vue) 
 		if (!self.fetch) {
 		    alert('Navegador incompatível com esse site.')
 		}
