@@ -1,4 +1,6 @@
-		if (!self.fetch) {
+import Vue from 'vue'
+
+	if (!self.fetch) {
 		    alert('Navegador incompatível com esse site.')
 		}
 
